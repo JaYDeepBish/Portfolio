@@ -7,21 +7,26 @@ import {
   SiVercel,
   SiMacos,
 } from "react-icons/si";
+import { FaWindows } from "react-icons/fa";
+import { SiIntellijidea } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
+
+
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+       <FaWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiGooglecloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
