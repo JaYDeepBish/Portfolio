@@ -10,9 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Jagjeevan Singh Bisht </span>
             from <span className="purple"> Uttarakhand, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
+          
             I have completed Masters in Computer Applications from Graphic Era Hill
             University Bhimtal
             <br />
